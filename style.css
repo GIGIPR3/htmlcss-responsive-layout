@@ -84,3 +84,10 @@ html{
     margin-top: 10%;
     margin-left: 10%;
 }
+
+.icon-card{
+    color: rgb(0, 101, 253);
+    font-size: 400%;
+    text-align: center;
+    margin-top: 5%;
+}
