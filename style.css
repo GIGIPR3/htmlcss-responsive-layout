@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar{
+    background-color: rgb(0,97,255);
+
+}
+
+.navbar-item{
+    width: 90%;
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    align-items: center;
+}
+
+#logo-img{
+    width: 90%;
+    padding-top: 2%;
+    padding-left: 3%;
+}
+
+.burgher{
+    color: white;
+}
+
+.flex-row-between{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex-column-between{
+    display: flex;
+    flex-direction: column;
+}
+
+.box-azur{
+    background-color: rgb(198, 218, 255);
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 25px;
+}
+
+.p-title{
+    color: rgb(0, 101, 253);
+    text-align: center;
+    margin-top: 10%;
+}
+
+.txt-centrale{
+    font-size: small;   
+    line-height: 25px; 
+    margin: 10% 10% 15% 10%;
+    color: rgb(71, 71, 71);
+}
+
+.pulsante{
+    display: inline;
+    background-color: rgb(0, 101, 253);
+    color: white;
+    margin-left: 18%;
+    padding: 5%;
+    padding: 4% 15%;
+    border-radius: 30px;
+}
+
+.apple-txt{
+    display: inline;
+    padding-left: 5%;
+    font-size: small;
+}
+
+.img-card{
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
