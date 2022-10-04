@@ -44,11 +44,17 @@ html{
 .first-row{
     display: flex;
     flex-direction: column;
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
 }
 
 .second-row{
     display: flex;
     flex-direction: column;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5%;
 }
 
 .flex-column-between{
@@ -86,6 +92,10 @@ html{
     padding: 5%;
     padding: 4% 15%;
     border-radius: 30px;
+}
+
+.mela{
+    display: inline;
 }
 
 .apple-txt{
@@ -131,17 +141,19 @@ html{
     }
 
     .box-azur{
-        margin-left: 3%;
-        margin-right: 5%;
+        margin-left: 0%;
+        margin-right: 0%;
         padding-left: 2%;
+        padding-right: 2%;
+        width: 50%;
     }
 
     .box-azur1{
-        margin-left: 5%;
-        margin-right: 3%;
+        margin-left: 0%;
+        margin-right: 5%;
         padding-right: 2%;
         padding-left: 2%;
-        width: 250%;
+        width: 100%;
     }
 
     .second-row{
@@ -151,8 +163,17 @@ html{
     }
 
     .box-azur3{
-        margin-left: 5%;
+        margin-left: 0%;
         margin-right: 5%;
+        padding-left: 3%;
+        padding-right: 5%;
+        margin-top: 5%;
+        width: 40%;
+    }
+
+    .box-azur4{
+        margin-left: 0%;
+        margin-right: 0%;
         padding-left: 3%;
         padding-right: 5%;
         margin-top: 5%;
@@ -163,5 +184,53 @@ html{
 }
 
 @media screen and (min-width: 770px){
+
+    .burgher{
+        display: none;
+    }
+
+    .list-menu{
+        padding-top: 1%;
+    }
+
+    .menu{
+        display: inline;
+        color: white;
+        width: 60%;
+        justify-content: space-around;
+        font-size: 90%;
+    }
+
+    .starta{
+        display: inline-block;
+        background-color: white;
+        color: black;
+        padding: 1% 5% 1% 5%;
+        border-radius: 25px;
+    }
+
+    .img-card{
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .p-title{
+        font-size: x-large;
+    }
+
+    .pulsante{
+        margin-left: 25%;
+    }
+
+    .apple-txt{
+        font-size: larger;
+    }
+
+    .mela{
+        font-size: larger;
+    }
+}
+
+@media screen and (min-width: 1025px){
     
 }
