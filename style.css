@@ -180,7 +180,13 @@ html{
         width: 40%;
     }
 
-
+    .navbar-item{
+        width: 90%;
+        margin: auto;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        align-items: center;
+    }
 }
 
 @media screen and (min-width: 770px){
@@ -196,7 +202,7 @@ html{
     .menu{
         display: inline;
         color: white;
-        width: 60%;
+        width: 50%;
         justify-content: space-around;
         font-size: 90%;
     }
@@ -229,8 +235,65 @@ html{
     .mela{
         font-size: larger;
     }
+
 }
 
-@media screen and (min-width: 1025px){
-    
+/* seconda parte */
+
+.violet-bgc{
+    background-color: rgb(146, 138, 253);
+}
+
+.strategic-section{
+    width: 90%;
+    margin: auto;
+    color: white;
+}
+
+#immagine-planning{
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+
+.title-str{
+    font-size: x-large;
+}
+
+.txt-str{
+    font-size: small;
+    padding-top: 10%;
+    margin-bottom: 15%;
+}
+
+.white-dev{
+    width: 90%;
+    margin: auto;
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.title-str1{
+    text-align: center;
+    font-size: large;
+}
+
+.txt-white-card{
+    font-style: italic;
+    font-size: small;
+    text-align: center;
+    line-height: 25px;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.violet-arrow{
+    background-color: rgb(146, 138, 253);
+    display: inline-block;
+    padding: 5% 7% 5% 7%;
+    border-radius: 30px;
+    width: 18%;
+    margin: 10% 0% 10% 40%;
 }
